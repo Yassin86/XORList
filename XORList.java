@@ -2,12 +2,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class CW2Q4 {
+public class XORList {
 
     private Node[] linkedList;
     private Integer tail;
 
-    public CW2Q4() {
+    public XORList() {
         this.tail = 1;
     }
 
@@ -187,8 +187,8 @@ public class CW2Q4 {
     }
 
     public static void main(String[] args) {
-        CW2Q4 q4 = new CW2Q4();
+        XORList list = new XORList();
         String fileName = "names.txt";
-        q4.readFile(fileName);
+        list.readFile(fileName);
     }
 }
