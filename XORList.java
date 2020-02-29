@@ -34,9 +34,6 @@ public class XORList {
             System.exit(0);
         }
 
-        insertAfter("\"GAYLORD\"","\"COCK\"");
-        insertBefore("\"GAYLORD\"","\"CUNT\"");
-
         printList();
     }
 
